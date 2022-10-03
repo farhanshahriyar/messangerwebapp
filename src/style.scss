@@ -34,7 +34,7 @@
         align-items: center;
 
         .logo {
-            color: #5d5b8d;
+            color: #ffffff;
             font-weight: bold;
             font-size: 24px;
         }
@@ -78,7 +78,7 @@
 }
 
 .home {
-    background-color: #a7bcff;
+    background-color: #cbd5e0;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -97,17 +97,17 @@
     
     .sidebar{
         flex: 1;
-        background-color: #3e3c61;
+        background-color: #0d513e;
         position: relative;
         
         .navbar{
             display: flex;
             align-items: center;
-            background-color: #2f2d52;
+            background-color: #004450;
             height: 50px;
             padding: 10px;
             justify-content: space-between;
-            color: #ddddf7;
+            color: #ffffff;
 
             .logo{
                 font-weight: bold;
@@ -129,11 +129,12 @@
             }
 
             button{
-                background-color: #5d5b8d;
-                color: #fff;
+                background-color: #dce4e3;
+                color: #0c7a5c;
                 font-style: 10px;
                 border: none;
                 cursor: pointer;
+                font-weight: bold;
                 @include tablet{
                     position: absolute;
                     bottom: 10px;
@@ -167,7 +168,7 @@
             cursor: pointer;
 
             &:hover{
-               background-color: #2f2d52;  
+               background-color: #59a792d1;  
             }
 
             
@@ -196,12 +197,12 @@
 
         .chatInfo{
             height: 50px;
-            background-color: #7c7bb6;
+            background-color: rgb(64 145 118);
             display: flex;
             align-items: center;
             justify-content: space-between;
             padding: 10px;
-            color: lightgray;
+            color: rgb(255, 255, 255);
         }
 
         .chatIcons{
@@ -263,7 +264,7 @@
                     }
 
                     p{
-                        background-color: #8da4f1;
+                        background-color: #69a691;
                         color: white;
                         border-radius: 10px 0px 10px 10px;
                     }
@@ -306,7 +307,7 @@
                 border: none;
                 padding: 10px 15px;
                 color: white;
-                background-color: #8da4f1;
+                background-color: #0c7a5c;
                 cursor: pointer;
             }
         }
